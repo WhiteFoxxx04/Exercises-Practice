@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationOfUserInputs"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationTable", "MultiplicationTable\MultiplicationTable.csproj", "{FB66AD17-AC3A-49E5-8F69-A647F561BFF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FB66AD17-AC3A-49E5-8F69-A647F561BFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB66AD17-AC3A-49E5-8F69-A647F561BFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB66AD17-AC3A-49E5-8F69-A647F561BFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
