@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyramidPattern", "PyramidPatter\PyramidPattern.csproj", "{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{4D19F4CF-DF57-4AAA-B67B-828D80049F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumbers", "PrimeNumbers\PrimeNumbers.csproj", "{7935162F-B52C-4301-88F0-097C1D8A0CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D19F4CF-DF57-4AAA-B67B-828D80049F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D19F4CF-DF57-4AAA-B67B-828D80049F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D19F4CF-DF57-4AAA-B67B-828D80049F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D19F4CF-DF57-4AAA-B67B-828D80049F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7935162F-B52C-4301-88F0-097C1D8A0CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7935162F-B52C-4301-88F0-097C1D8A0CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7935162F-B52C-4301-88F0-097C1D8A0CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7935162F-B52C-4301-88F0-097C1D8A0CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
