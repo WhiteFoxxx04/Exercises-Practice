@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationTable", "Mult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyramidPattern", "PyramidPatter\PyramidPattern.csproj", "{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0525BCDA-F8E6-4E38-8F53-5AB21A471C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6525F4-77FB-44F0-BD6D-1A51BC075EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
