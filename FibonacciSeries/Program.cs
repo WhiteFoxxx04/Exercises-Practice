@@ -13,17 +13,33 @@ namespace FibonacciSeries
     {
         static void Main(string[] args)
         {
-            int n1 = 0, n2 = 1, n3, i, number;
+            //int n1 = 0, n2 = 1, n3, i, number;
+            //Console.WriteLine("Enter number of elements: ");
+            //number = int.Parse(Console.ReadLine());
+            //Console.Write(n1 + " " + n2 + " "); //printing 0 and 1
+            //for(i=2; i<number; i++) //loop starts from 2 because 0 and 1 are already printed    
+            //{
+            //    n3 = n1 + n2;
+            //    Console.Write(n3 + " ");
+            //    n1 = n2;
+            //    n2 = n3;
+            //}
+
+            //Alternative method
+
+            int a = 0, b = 1;
+            int c;
             Console.WriteLine("Enter number of elements: ");
-            number = int.Parse(Console.ReadLine());
-            Console.Write(n1 + " " + n2 + " "); //printing 0 and 1
-            for(i=2; i<number; i++) //loop starts from 2 because 0 and 1 are already printed    
+            int num = int.Parse(Console.ReadLine());
+            Console.Write(a + " " + b + " ");
+            for (int i = 0; i < num; i++)
             {
-                n3 = n1 + n2;
-                Console.Write(n3 + " ");
-                n1 = n2;
-                n2 = n3;
+                c = a + b;
+                Console.Write(c + " ");
+                a = b;
+                b = c;
             }
+
             Console.ReadLine();
         }
     }
