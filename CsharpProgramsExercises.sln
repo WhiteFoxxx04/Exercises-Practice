@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddNumbers", "EvenAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintLargestNumber", "PrintLargestNumber\PrintLargestNumber.csproj", "{6716C277-5BE5-4C3B-9804-D9A7019C9837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialNumber", "FactorialNumber\FactorialNumber.csproj", "{F61C96B8-62E5-486C-9FAB-CCD86AE86938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{6716C277-5BE5-4C3B-9804-D9A7019C9837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6716C277-5BE5-4C3B-9804-D9A7019C9837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6716C277-5BE5-4C3B-9804-D9A7019C9837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61C96B8-62E5-486C-9FAB-CCD86AE86938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61C96B8-62E5-486C-9FAB-CCD86AE86938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61C96B8-62E5-486C-9FAB-CCD86AE86938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61C96B8-62E5-486C-9FAB-CCD86AE86938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
