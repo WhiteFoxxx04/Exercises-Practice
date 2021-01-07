@@ -10,23 +10,28 @@ namespace PrimeNumbers
     {
         static void Main(string[] args)
         {
-            int n, i, m = 0, flag = 0;
-            Console.Write("Enter the number to find out if its a Prime Number or Not: ");
-            n = int.Parse(Console.ReadLine());
-            m = n / 2;
-            for (i = 2; i <= m; i++)
+            int num;
+            Console.WriteLine("Enter a number");
+            num = int.Parse(Console.ReadLine());
+            int count = 0;
+
+            for(int i = 1; i <= num; i++)
             {
-                if(n % i == 0)
+                if (num % i == 0)
                 {
-                    Console.Write("Not a Prime Number");
-                    flag = 1;
-                    break;
+                    count++;
                 }
             }
-            if (flag == 0)
-                Console.Write("Prime Number");
+            if (count == 2)
+            {
+                Console.WriteLine("Prime number");
+            }
+            else
+            {
+                Console.WriteLine("Not a Prime Number");
+            }
 
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }
