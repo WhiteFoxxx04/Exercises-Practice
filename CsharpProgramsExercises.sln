@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialNumber", "Factoria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{EF8EBDA5-E68D-49C5-B6FF-E2AFADB93CB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmstrongNumber", "ArmstrongNumber\ArmstrongNumber.csproj", "{DF68F508-B515-40D5-91C3-B9C5B2EF2D4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EF8EBDA5-E68D-49C5-B6FF-E2AFADB93CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8EBDA5-E68D-49C5-B6FF-E2AFADB93CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8EBDA5-E68D-49C5-B6FF-E2AFADB93CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF68F508-B515-40D5-91C3-B9C5B2EF2D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF68F508-B515-40D5-91C3-B9C5B2EF2D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF68F508-B515-40D5-91C3-B9C5B2EF2D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF68F508-B515-40D5-91C3-B9C5B2EF2D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
